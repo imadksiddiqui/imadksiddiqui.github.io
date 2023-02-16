@@ -22,8 +22,8 @@ const Skills = () => {
         ];
     
         const options = {
-          radius: 300 ,
-          maxSpeed: 'normal',
+          radius: 250,
+          maxSpeed: 'fast',
           initSpeed: 'normal',
           keep: true,
         };
@@ -37,7 +37,7 @@ const Skills = () => {
                 <div className="text-3xl inline border-b-2 border-blue-300">
                     Skills 
                 </div>
-                <span className="tagcloud text-2xl text-blue-600"></span>
+                <span className="tagcloud text-xl text-blue-600"></span>
             </div>
             
         </div>
