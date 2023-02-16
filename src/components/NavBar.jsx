@@ -1,5 +1,4 @@
 import React from 'react'
-import {FaBars} from 'react-icons/fa'
 import {AiFillGithub} from 'react-icons/ai'
 import {AiFillLinkedin} from 'react-icons/ai'
 import { Link } from 'react-scroll';
@@ -11,10 +10,10 @@ const NavBar = () => {
       <div className="flex justify-between items-center">
         <div className="hover:scale-110 duration-200 cursor-pointer  mr-4">
             
-            <a href="https://github.com/imadksiddiqui" target="_blank"><AiFillGithub size={42}/></a>
+            <a href="https://github.com/imadksiddiqui" target="_blank" rel="noreferrer"><AiFillGithub size={42}/></a>
         </div>
         <div className="hover:scale-110 duration-200 cursor-pointer ">
-            <a href="https://www.linkedin.com/in/imadksiddiqui/" target="_blank"><AiFillLinkedin size={42} /></a>
+            <a href="https://www.linkedin.com/in/imadksiddiqui/" target="_blank" rel="noreferrer"><AiFillLinkedin size={42} /></a>
             
         </div>
       </div>

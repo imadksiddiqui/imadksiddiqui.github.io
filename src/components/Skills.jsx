@@ -3,40 +3,33 @@ import TagCloud from 'TagCloud'
 
 const Skills = () => {
   
-  useEffect(() => {
-    return () => {
-        const container = ".tagcloud";
+    useEffect(() => {
+        const container = '.tagcloud';
         const texts = [
-            "HTML",
-            "CSS",
-            "C",
-            "C#",
-            "JavaScript",
-            "TypeScript",
-            "SQL",
-            "R",
-            "TailWind",
-            "NodeJS",
-            "NextJS",
-            "JSON",
-            "TensorFlow",
-            "ReactJS",
-            "Java",
-            "Python",
-            "Django",
-            "Flask",
-            "Git",
-            "C++",
+          'HTML',
+          'CSS',
+          'SASS',
+          'JavaScript',
+          'React',
+          'Vue',
+          'Nuxt',
+          'NodeJS',
+          'Shopify',
+          'Jquery',
+          'ES6',
+          'GIT',
+          'GITHUB',
         ];
+    
         const options = {
-            radius: 325,
-            maxSpeed: "fast",
-            initSpeed: "normal",
-            keep: true,  
+          radius: 300 ,
+          maxSpeed: 'normal',
+          initSpeed: 'normal',
+          keep: true,
         };
+    
         TagCloud(container, texts, options);
-    };
-  }, []);
+      }, []);
 
   return (
         <div name="skills" className="h-screen w-full bg-gradient-to-b from-sky-900 via-black to-black text-blue-300">

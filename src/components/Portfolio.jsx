@@ -13,24 +13,24 @@ const Portfolio = () => {
 
         <div className="grid grid-cols-3 gap-12 max-w-5xl items-center justify-center mx-auto">
             <div className="shadow-md shadow-blue-600 mx-auto rounded-md hover:shadow-lg hover:shadow-blue-600 duration-300">
-                <img src={colorpic} className="w-3/4 h-3/4  mx-auto" />
+                <img src={colorpic} alt="" className="w-3/4 h-3/4  mx-auto" />
                 <div className="mx-12 w-60  flex justify-center">
                     <button className=" mx-auto hover:scale-105 duration-200">Video Demo</button>
                     <button className="mx-auto hover:scale-105 duration-200">Repository</button>
                 </div>
             </div>
             <div className="shadow-md shadow-blue-600 mx-auto rounded-md hover:shadow-lg hover:shadow-blue-600 duration-300">
-                <img src={colorpic} className="w-3/4 h-3/4  mx-auto" />
+                <img src={colorpic} alt="" className="w-3/4 h-3/4  mx-auto" />
                 <div className="mx-12 w-60  flex justify-center">
                     <button className="  mx-auto hover:scale-105 duration-200">Video Demo</button>
                     <button className=" mx-auto hover:scale-105 duration-200">Repository</button>
                 </div>
             </div>
             <div className="shadow-md shadow-blue-600 mx-auto rounded-md hover:shadow-lg hover:shadow-blue-600 duration-300">
-                <img src={colorpic} className="w-3/4 h-3/4  mx-auto" />
+                <img src={colorpic} alt="" className="w-3/4 h-3/4  mx-auto" />
                 <div className="mx-12 w-60  flex justify-center">
                     <button className="mx-auto hover:scale-105 duration-200">Video Demo</button>
-                    <a className="mx-auto hover:scale-105 duration-200" href="https://github.com/imadksiddiqui/Color-Guesser" target="_blank">Repository</a>
+                    <a className="mx-auto hover:scale-105 duration-200" href="https://github.com/imadksiddiqui/Color-Guesser" target="_blank" rel="noreferrer">Repository</a>
                 </div>
             </div>
 
