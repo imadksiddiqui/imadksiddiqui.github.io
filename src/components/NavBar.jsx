@@ -1,0 +1,32 @@
+import React from 'react'
+import {FaBars} from 'react-icons/fa'
+import {AiFillGithub} from 'react-icons/ai'
+import {AiFillLinkedin} from 'react-icons/ai'
+import { Link } from 'react-scroll';
+
+const NavBar = () => {
+
+  return (
+    <div className="flex justify-between items-center w-full h-16 text-blue-500 bg-transparent px-6 fixed">
+      <div className="flex justify-between items-center">
+        <div className="hover:scale-110 duration-200 cursor-pointer  mr-4">
+            
+            <a href="https://github.com/imadksiddiqui" target="_blank"><AiFillGithub size={42}/></a>
+        </div>
+        <div className="hover:scale-110 duration-200 cursor-pointer ">
+            <a href="https://www.linkedin.com/in/imadksiddiqui/" target="_blank"><AiFillLinkedin size={42} /></a>
+            
+        </div>
+      </div>
+
+        <ul className="flex">
+          <Link to="about" smooth duration="500" className="px-4 cursor-pointer text-blue-500 hover:scale-110 duration-200">Home</Link>
+          <Link to="skills" smooth duration="500" className="px-4 cursor-pointer text-blue-500 hover:scale-110 duration-200">Skills</Link>
+          <Link to="projects" smooth duration="500" className="px-4 cursor-pointer text-blue-500 hover:scale-110 duration-200">Projects</Link>
+          <Link to="contact" smooth duration="500" className="px-4 cursor-pointer text-blue-500 hover:scale-110 duration-200">Contact</Link>
+        </ul>
+    </div>
+  );
+};
+
+export default NavBar
