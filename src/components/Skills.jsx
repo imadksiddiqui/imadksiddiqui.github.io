@@ -33,7 +33,7 @@ const Skills = () => {
       }, []);
 
   return (
-        <div name="skills" className="h-screen w-full bg-gradient-to-b from-sky-900 via-black to-black text-blue-300">
+        <div name="skills" className="h-screen w-full bg-gradient-to-b from-blue-900 via-black to-black text-blue-300">
             <div className="mx-auto flex flex-col justify-center max-w-screen w-full h-full items-center">
                 <div className="text-3xl inline border-b-2 border-blue-300">
                     Skills 

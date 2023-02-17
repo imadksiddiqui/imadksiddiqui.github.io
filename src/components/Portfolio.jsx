@@ -5,7 +5,7 @@ import colorpic from '../assets/pic04.jpg'
 const Portfolio = () => {
 
   return (
-    <div name="projects" className="bg-gradient-to-b from-black via-black to-sky-900 text-blue-300 w-full h-screen">
+    <div name="projects" className="bg-gradient-to-b from-black via-black to-blue-900 text-blue-300 w-full h-screen">
       <div className="max-w-screen mx-auto flex flex-col justify-center w-full h-full">
         <div className="mx-auto flex flex-col ">
             <p className="text-3xl font-bold inline border-b-2 border-blue-300 mx-auto">Projects</p>

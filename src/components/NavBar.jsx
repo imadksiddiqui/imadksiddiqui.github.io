@@ -6,15 +6,13 @@ import { Link } from 'react-scroll';
 const NavBar = () => {
 
   return (
-    <div className="flex justify-between items-center w-full h-16 text-blue-500 bg-transparent px-6 fixed">
+    <div className="flex justify-between items-center w-full h-16 text-blue-500 bg-black opacity-70 px-6 fixed z-50">
       <div className="flex justify-between items-center">
-        <div className="hover:scale-110 duration-200 cursor-pointer  mr-4">
-            
-            <a href="https://github.com/imadksiddiqui" target="_blank" rel="noreferrer"><AiFillGithub size={42}/></a>
-        </div>
-        <div className="hover:scale-110 duration-200 cursor-pointer ">
+        <div className="hover:scale-110 duration-200 cursor-pointer flex mr-4">
             <a href="https://www.linkedin.com/in/imadksiddiqui/" target="_blank" rel="noreferrer"><AiFillLinkedin size={42} /></a>
-            
+        </div>
+        <div className="hover:scale-110 duration-200 cursor-pointer flex ml-2">
+            <a href="https://github.com/imadksiddiqui/" target="_blank" rel="noreferrer"><AiFillGithub size={42} /></a>
         </div>
       </div>
 
