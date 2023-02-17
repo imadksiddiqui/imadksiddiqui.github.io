@@ -6,18 +6,19 @@ const Typer = () => {
         <div className="text-3xl">
             <h1>
                 <TypeWriterEffect className="py-16"
-                        startDelay={1000}
-                        hideCursorAfterText={true}
-                        text="I am a"
+                        startDelay={750}
+                        hideCursorAfterText={false}
                         multiText={[
                             "CS Major at UTD",
                             "SWE Intern at Flow",
                             "Software Developer",
-                            "Web Developer",
-                            "Welcome To My Portfolio!"
+                            "Web Developer"
                         ]}
+                        cursorColor="##2ba0cf"
                         multiTextDelay={1000}
                         typeSped={200}
+                        multiTextLoop
+                        
                 />
             </h1>
         </div>

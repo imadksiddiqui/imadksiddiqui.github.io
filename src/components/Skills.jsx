@@ -11,14 +11,15 @@ const Skills = () => {
           'SASS',
           'JavaScript',
           'React',
-          'Vue',
-          'Nuxt',
+          'TypeScript',
+          'NextJS',
           'NodeJS',
-          'Shopify',
-          'Jquery',
-          'ES6',
           'GIT',
-          'GITHUB',
+          'Java',
+          'Python',
+          'C++',
+          'Tailwind',
+          'C',
         ];
     
         const options = {
