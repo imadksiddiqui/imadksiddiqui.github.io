@@ -3,17 +3,17 @@ import {AiOutlineArrowDown} from "react-icons/ai"
 import me from "../assets/me.png"
 import { Link } from 'react-scroll'
 import Typer from './Typer'
-import video from '../assets/bluebg.mp4'
+import bg from '../assets/bg.png'
 
 const Home = () => {
 
   return (
     <div name="about" className=" h-screen w-full">
-        <video src={video} autoPlay loop muted className="w-full h-full object-cover -z-50 fixed" />
+        <img src={bg} alt="" className="w-full h-full object-cover -z-50 fixed" />
         <div className="items-center justify-center flex text-blue-500 max-w-screen-lg mx-auto h-full px-4 flex-row z-50">
             <div classname="h-250 w-full">
                 <p className="text-4xl pr-36">Hi, I'm Imad Siddiqui!</p>
-                <p className="py-4 text-3xl text-blue-400">
+                <p className="py-4 text-3xl text-teal-300">
                     <Typer />
                 </p>
                 <div>

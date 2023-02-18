@@ -20,6 +20,7 @@ const Skills = () => {
           'C++',
           'Tailwind',
           'C',
+          'SQL',
         ];
     
         const options = {
@@ -33,12 +34,12 @@ const Skills = () => {
       }, []);
 
   return (
-        <div name="skills" className="h-screen w-full bg-gradient-to-b from-blue-900 via-black to-black text-blue-300">
+        <div name="skills" className="h-screen w-full bg-gradient-to-b from-blue-900 to-black text-teal-300">
             <div className="mx-auto flex flex-col justify-center max-w-screen w-full h-full items-center">
                 <div className="text-3xl inline border-b-2 border-blue-300">
                     Skills 
                 </div>
-                <span className="tagcloud text-xl text-blue-600"></span>
+                <span className="tagcloud text-xl text-teal-300"></span>
             </div>
             
         </div>
