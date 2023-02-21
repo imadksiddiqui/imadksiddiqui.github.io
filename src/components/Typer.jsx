@@ -12,9 +12,9 @@ const Typer = () => {
                             "CS Major at UTD",
                             "SWE Intern at Flow",
                             "Software Developer",
-                            "Web Developer"
+                            "Full-Stack Web Developer"
                         ]}
-                        cursorColor="##2ba0cf"
+                        cursorColor="#5eead4"
                         multiTextDelay={1000}
                         typeSped={200}
                         multiTextLoop

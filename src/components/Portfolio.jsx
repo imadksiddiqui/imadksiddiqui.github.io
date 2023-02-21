@@ -1,5 +1,6 @@
 import React from 'react'
 import colorpic from '../assets/pic04.jpg'
+import xurpic from '../assets/xurpic.jpg'
 
 
 const Portfolio = () => {
@@ -21,10 +22,10 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="shadow-md shadow-teal-300 mx-auto rounded-md hover:shadow-lg hover:shadow-teal-300 duration-300">
-                <img src={colorpic} alt="" className="w-3/4 h-3/4  mx-auto" />
+                <img src={xurpic} alt="" className="w-3/4 h-3/4  mx-auto" />
                 <div className="mx-12 w-60  flex justify-center">
-                    <a className="mx_auto hover:scale-105 duration-200 " href = "https://imadksiddiqui.github.io/color_guesser" target="_blank" rel="noreferrer">Video Demo</a>
-                    <a className="mx-auto hover:scale-105 duration-200" href="https://github.com/imadksiddiqui/Color-Guesser" target="_blank" rel="noreferrer">Repository</a>
+                    <a className="mx_auto hover:scale-105 duration-200 " href = "https://imadksiddiqui.github.io/Xur-Finder/" target="_blank" rel="noreferrer">Video Demo</a>
+                    <a className="mx-auto hover:scale-105 duration-200" href="https://github.com/imadksiddiqui/Xur-Finder" target="_blank" rel="noreferrer">Repository</a>
                 </div>
             </div>
 

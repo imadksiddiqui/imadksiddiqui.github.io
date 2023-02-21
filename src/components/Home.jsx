@@ -12,8 +12,8 @@ const Home = () => {
         <img src={bg} alt="" className="w-full h-full object-cover -z-50 fixed" />
         <div className="items-center justify-center flex text-blue-500 max-w-screen-lg mx-auto h-full px-4 flex-row z-50">
             <div classname="h-250 w-full">
-                <p className="text-4xl pr-36">Hi, I'm Imad Siddiqui!</p>
-                <p className="py-4 text-3xl text-teal-300">
+                <p className="text-6xl pr-36">Hi, I'm Imad Siddiqui!</p>
+                <p className="py-4 text-4xl text-teal-300">
                     <Typer />
                 </p>
                 <div>
@@ -26,9 +26,6 @@ const Home = () => {
                 </div>
             </div>
             
-            <div className="Putimagehere w-1/3">
-                <img src={me} alt="" className="rounded-lg mx-auto w-3/4 h-3/4"/>
-            </div>
         </div>
     </div>
   )

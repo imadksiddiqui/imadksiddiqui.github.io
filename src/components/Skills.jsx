@@ -10,13 +10,13 @@ const Skills = () => {
           'CSS',
           'SASS',
           'JavaScript',
-          'React',
-          'TypeScript',
+          'ReactJS',
           'NextJS',
           'NodeJS',
           'GIT',
           'Java',
           'Python',
+          'R',
           'C++',
           'Tailwind',
           'C',
@@ -24,7 +24,7 @@ const Skills = () => {
         ];
     
         const options = {
-          radius: 250,
+          radius: 400,
           maxSpeed: 'fast',
           initSpeed: 'normal',
           keep: true,
@@ -39,7 +39,17 @@ const Skills = () => {
                 <div className="text-3xl inline border-b-2 border-blue-300">
                     Skills 
                 </div>
-                <span className="tagcloud text-xl text-teal-300"></span>
+                <div>
+                
+                </div>
+                <div className="flex w-full justify-center items-center">
+                  <div>
+                  </div>
+                  <span className="tagcloud text-xl text-teal-300"></span>
+                  <div>
+                  </div>
+                </div>
+                
             </div>
             
         </div>
