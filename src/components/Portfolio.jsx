@@ -1,6 +1,7 @@
 import React from 'react'
 import colorpic from '../assets/pic04.jpg'
 import xurpic from '../assets/xurpic.jpg'
+import spotify from '../assets/spotify.png'
 
 
 const Portfolio = () => {
@@ -26,6 +27,13 @@ const Portfolio = () => {
                 <div className="mx-12 w-60  flex justify-center">
                     <a className="mx_auto hover:scale-105 duration-200 " href = "https://imadksiddiqui.github.io/Xur-Finder/" target="_blank" rel="noreferrer">Video Demo</a>
                     <a className="mx-auto hover:scale-105 duration-200" href="https://github.com/imadksiddiqui/Xur-Finder" target="_blank" rel="noreferrer">Repository</a>
+                </div>
+            </div>
+            <div className="shadow-md shadow-teal-300 mx-auto rounded-md hover:shadow-lg hover:shadow-teal-300 duration-300">
+                <img src={spotify} alt="" className="w-3/4 h-3/4  mx-auto" />
+                <div className="mx-12 w-60  flex justify-center">
+                    <a className="mx_auto hover:scale-105 duration-200 " href = "https://spotify-playlist-spotter.netlify.app/" target="_blank" rel="noreferrer">Video Demo</a>
+                    <a className="mx-auto hover:scale-105 duration-200" href="https://github.com/imadksiddiqui/spotify_app" target="_blank" rel="noreferrer">Repository</a>
                 </div>
             </div>
 
